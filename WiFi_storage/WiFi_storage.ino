@@ -23,33 +23,8 @@ void setup()
 		return;
 	}
 	Serial.println("initialization done.");
-	/*
-	i
-
-	// open a new file and immediately close it:
-	Serial.println("Creating example.txt...");
-	myFile = SD.open("example.txt", FILE_WRITE);
-	myFile.close();
-
-	// Check to see if the file exists:
-	if (SD.exists("example.txt")) {
-		Serial.println("example.txt exists.");
-	}
-	else {
-		Serial.println("example.txt doesn't exist.");
-	}
-
-	// delete the file:
-	Serial.println("Removing example.txt...");
-	SD.remove("example.txt");
-
-	if (SD.exists("example.txt")) {
-		Serial.println("example.txt exists.");
-	}
-	else {
-		Serial.println("example.txt doesn't exist.");
-	}
-*/
+	
+	
 }
 // this function fills the buffer upto specified size and then
 //returns the no. of bytes of data left of the file
